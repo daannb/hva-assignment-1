@@ -1,0 +1,18 @@
+{
+  "name": "assignment1",
+  "version": "1.0.0",
+  "description": "HvA assignment 1",
+  "main": "js/main.js",
+  "scripts": {
+    "babel": "babel --presets es2015 js/main.js -o build/main.bundle.js",
+    "start": "http-server"
+  },
+  "author": "Daan Bol",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-cli": "^6.24.0",
+    "babel-core": "^6.24.0",
+    "babel-preset-es2015": "^6.24.0",
+    "http-server": "^0.9.0"
+  }
+}
